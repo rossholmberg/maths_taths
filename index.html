@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="apple-touch-icon" href="images/icon.png">
+
+    <link rel="stylesheet" href="src/style.css?update=20200425">
+
+    <link rel="manifest" href="manifest.json?update=20200426">
+    
+    <!-- Apple iOS specific stuff -->
+    <!-- icon images -->
+    <link rel="apple-touch-icon" sizes="240x146" href="images/icon.png">
+
+    <!-- Launch icon -->
+    <link rel="apple-touch-startup-image" href="images/icon.png">
+    <!-- Use standalone mode -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Set the status bar colour -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3367D6">
+    <!-- End Apple iOS specific stuff -->
+
+    <title>Maths Taths</title>
+</head>
+<body>
+
+    <div id="homepage" class="fullscreen_div">
+        <img class="fullscreen_img" src="images/homepage_background.jpg">
+        <div id="homepage-level_select"></div>
+    </div>
+
+    <div id="level_select" class="fullscreen_div">
+        <img class="fullscreen_img" src="images/level_select.jpg">
+        <div id="level_select-level_1"></div>
+        <div id="level_select-level_2"></div>
+        <div id="level_select-level_3"></div>
+    </div>
+
+    <div id="level_div" class="fullscreen_div">
+        <div class="question_container">
+            <p class="question_text"></p>
+        </div>
+        <div class="answers">
+            <div id="answer_1" class="answer_option">
+                <p id="answer_1_text"></p>
+            </div>
+            <div id="answer_2" class="answer_option">
+                <p id="answer_2_text"></p>
+            </div>
+            <div id="answer_3" class="answer_option">
+                <p id="answer_3_text"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="tick_cross"><img id="tick_cross_img"></div>
+
+    <div id="score">
+        <img id="score_img" src="images/star.jpg">
+        <h4 id="score_number">0</h4>
+    </div>
+
+    <img id="go_to_level_select" src="images/home.png">
+
+</body>
+
+<script src="src/app.js?update=202004252"></script>
+
+</html>

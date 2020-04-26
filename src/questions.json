@@ -1,0 +1,83 @@
+[{
+    "level": 1,
+    "questions": [
+        {
+            "question": "1 + 1 = ?",
+            "correct_answer": 2,
+            "wrong_answers": [0, 1]
+        },
+        {
+            "question": "10 + 12 = ?",
+            "correct_answer": 22,
+            "wrong_answers": [12, 2]
+        },
+        {
+            "question": "5 - 5 = ?",
+            "correct_answer": 0,
+            "wrong_answers": [10, -5]
+        },
+        {
+            "question": "4 - 3 = ?",
+            "correct_answer": 1,
+            "wrong_answers": [7, 8]
+        },
+        {
+            "question": "7 + 10 = ?",
+            "correct_answer": 17,
+            "wrong_answers": [-3, 10]
+        }
+    ]
+},{
+    "level": 2,
+    "questions": [
+        {
+            "question": "20 - 7 = ?",
+            "correct_answer": 13,
+            "wrong_answers": [12, 15]
+        },
+        {
+            "question": "3 - 5 = ?",
+            "correct_answer": -2,
+            "wrong_answers": [2, 3]
+        },
+        {
+            "question": "10 - 4 = ?",
+            "correct_answer": 6,
+            "wrong_answers": [4, 8]
+        },
+        {
+            "question": "24 - 6 = ?",
+            "correct_answer": 18,
+            "wrong_answers": [19, 16]
+        }
+    ]
+},{
+    "level": 3,
+    "questions": [
+        {
+            "question": "1001 - 8 = ?",
+            "correct_answer": 993,
+            "wrong_answers": [800, 8000]
+        },
+        {
+            "question": "5 - 6 = ?",
+            "correct_answer": -1,
+            "wrong_answers": [0, 2]
+        },
+        {
+            "question": "80 - 63 = ?",
+            "correct_answer": 17,
+            "wrong_answers": [50, 140]
+        },
+        {
+            "question": "6 - 0 = ?",
+            "correct_answer": 6,
+            "wrong_answers": [600, 0]
+        },
+        {
+            "question": "7 + 7 = ?",
+            "correct_answer": 14,
+            "wrong_answers": [77, 7]
+        }
+    ]
+}]

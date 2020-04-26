@@ -1,0 +1,17 @@
+
+{
+  "short_name": "MathsTaths",
+  "name": "Maths Taths",
+  "icons": [
+    {
+      "src": "images/icon_144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#3367D6",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "#3367D6"
+}

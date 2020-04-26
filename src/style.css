@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.fullscreen_img {
+    width: 100%;
+    height: 100%;
+}
+
+.fullscreen_div {
+    display: none;
+}
+
+#homepage {
+    display: block;
+    height: 100%;
+}
+
+#level_select {
+    height: 100%;
+}
+
+#homepage-level_select {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 42%;
+    top: 0;
+}
+
+
+#level_select-level_1 {
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    left: 5%;
+    top: 23%;
+}
+#level_select-level_2 {
+    position: absolute;
+    width: 23%;
+    height: 30%;
+    left: 37%;
+    top: 23%;
+}
+#level_select-level_3 {
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    left: 70%;
+    top: 28%;
+}
+
+.question_container, .answers {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    height: 20%;
+}
+.question_container {
+    top: 25%;
+    border: 1px solid;
+    border-color: #000000;
+    vertical-align: middle;
+}
+.question_text {
+    font-size: 50px;
+    text-align: center;
+    top: 50%;
+    position: relative;
+    margin-top: -32px;
+}
+.answers {
+    top: 46%;
+}
+
+.answer_option {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    border-color: #000000;
+    border: 1px solid;
+    font-size: 50px;
+    text-align: center;
+}
+
+#answer_1 {
+    left: 0;
+}
+#answer_2 {
+    left: 35%;
+}
+#answer_3 {
+    left: 70%;
+}
+
+#tick_cross {
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    left: 12.5%;
+    top: 12.5%;
+    display: none;
+}
+
+#tick_cross_img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#score {
+    position: absolute;
+    top: 2%;
+    left: 70px;
+    height: 100px;
+    width: 200px;
+    display: none;
+}
+
+#score_img {
+    height: 100px;
+    width: 100px;
+}
+
+#score_number {
+    font-size: 38px;
+    width: 90px;
+    top: 0;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+#go_to_level_select {
+    display: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 2%;
+}
+
+
+
+
+
