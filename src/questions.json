@@ -25,6 +25,26 @@
             "question": "7 + 10 = ?",
             "correct_answer": 17,
             "wrong_answers": [-3, 10]
+        },
+        {
+            "question": "8 + 2 = ?",
+            "correct_answer": 10,
+            "wrong_answers": [82, 28]
+        },
+        {
+            "question": "10/2 = ?",
+            "correct_answer": 5,
+            "wrong_answers": [20, 12]
+        },
+        {
+            "question": "10 + 20 = ?",
+            "correct_answer": 30,
+            "wrong_answers": [300, 120]
+        },
+        {
+            "question": "50 - 30 = ?",
+            "correct_answer": 20,
+            "wrong_answers": [30, 80]
         }
     ]
 },{
@@ -49,6 +69,26 @@
             "question": "24 - 6 = ?",
             "correct_answer": 18,
             "wrong_answers": [19, 16]
+        },
+        {
+            "question": "30 - 25 = ?",
+            "correct_answer": 5,
+            "wrong_answers": [-5, 55]
+        },
+        {
+            "question": "9 + 5 = ?",
+            "correct_answer": 14,
+            "wrong_answers": [15, 41]
+        },
+        {
+            "question": "9 + 21 = ?",
+            "correct_answer": 30,
+            "wrong_answers": [40, 20]
+        },
+        {
+            "question": "5 x 6 = ?",
+            "correct_answer": 30,
+            "wrong_answers": [36, 56]
         }
     ]
 },{
@@ -78,6 +118,26 @@
             "question": "7 + 7 = ?",
             "correct_answer": 14,
             "wrong_answers": [77, 7]
+        },
+        {
+            "question": "3/6 = ?",
+            "correct_answer": 0.5,
+            "wrong_answers": [3, 2.5]
+        },
+        {
+            "question": "(3x9)/2 = ?",
+            "correct_answer": 13.5,
+            "wrong_answers": [14, "None of the above"]
+        },
+        {
+            "question": "9 + 5 - 12 + 8 = ?",
+            "correct_answer": 10,
+            "wrong_answers": [9, "None of the above"]
+        },
+        {
+            "question": " 8 x 9 = ?",
+            "correct_answer": 72,
+            "wrong_answers": [89, 76]
         }
     ]
 }]
