@@ -168,8 +168,11 @@ const check_answer = e => {
     if(correct) {
         current_score.total++;
         current_score.per_level['level_' + current_level]++;
-        update_score();
+    } else {
+        current_score.total--;
+        current_score.per_level['level_' + current_level]--;
     }
+    update_score();
     
     // show the tick or cross image
     const div_el = document.getElementById("tick_cross");
