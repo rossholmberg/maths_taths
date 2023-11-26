@@ -45,6 +45,11 @@
             "question": "50 - 30 = ?",
             "correct_answer": 20,
             "wrong_answers": [30, 80]
+        },
+        {
+            "question": " (1 + 10) - 6 = ?",
+            "correct_answer": 5,
+            "wrong_answers": [-3, 17]
         }
     ]
 },{
@@ -89,6 +94,11 @@
             "question": "5 x 6 = ?",
             "correct_answer": 30,
             "wrong_answers": [36, 56]
+        },
+        {
+            "question": " ((9 + 11) - 12) + 8 = ?",
+            "correct_answer": 16,
+            "wrong_answers": [8, 14]
         }
     ]
 },{
@@ -138,6 +148,11 @@
             "question": " 8 x 9 = ?",
             "correct_answer": 72,
             "wrong_answers": [89, 76]
+        },
+        {
+            "question": "  (12/3) x 8 = ?",
+            "correct_answer": 32,
+            "wrong_answers": [48, 4.44444]
         }
     ]
 }]

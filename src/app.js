@@ -169,8 +169,16 @@ const check_answer = e => {
         current_score.total++;
         current_score.per_level['level_' + current_level]++;
     } else {
-        current_score.total--;
-        current_score.per_level['level_' + current_level]--;
+        let lose_points = 0;
+        if(current_level == 1) {
+            lose_points = 1
+        } else if(current_level == 2) {
+            lose_points = 3
+        } else if(current_level == 3) {
+            lose_points = 5
+        }
+        current_score.total = current_score.total - lose_points;
+        current_score.per_level['level_' + current_level] = current_score.per_level['level_' + current_level] - lose_points;
     }
     update_score();
     
